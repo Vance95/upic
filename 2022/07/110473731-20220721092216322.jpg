@@ -1,0 +1,1657 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <link rel="canonical" href="https://blog.csdn.net/weixin_39780255/article/details/110473731"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="report" content='{"pid": "blog", "spm":"1001.2101"}'>
+    <meta name="referrer" content="always">
+    <meta http-equiv="Cache-Control" content="no-siteapp" /><link rel="alternate" media="handheld" href="#" />
+    <meta name="shenma-site-verification" content="5a59773ab8077d4a62bf469ab966a63b_1497598848">
+    <meta name="applicable-device" content="pc">
+    <link  href="https://g.csdnimg.cn/static/logo/favicon32.ico"  rel="shortcut icon" type="image/x-icon" />
+    <title>idea可以开发python吗_IntelliJ IDEA必备7款Python插件_weixin_39780255的博客-CSDN博客</title>
+    <script>
+      (function(){ 
+        var el = document.createElement("script"); 
+        el.src = "https://s3a.pstatp.com/toutiao/push.js?1abfa13dfe74d72d41d83c86d240de427e7cac50c51ead53b2e79d40c7952a23ed7716d05b4a0f683a653eab3e214672511de2457e74e99286eb2c33f4428830"; 
+        el.id = "ttzz"; 
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(el, s);
+      })(window)
+    </script>
+        <meta name="keywords" content="idea写python好吗">
+        <meta name="csdn-baidu-search"  content='{"autorun":true,"install":true,"keyword":"idea写python好吗"}'>
+    <meta name="description" content="专注Python、AI、大数据，请关注公众号七步编程！​提起Python IDE，很多同学首先都会想到PyCharm，毋庸置疑，PyCharm针对Python和Django很好的支持，已经在项目管理方面的强大之处，使得成为一款非常优秀的IDE，也受到很多专业开发人员的青睐。而今天要介绍的是利用与PyCharm出自同一家的Intellij IDEA作为Python开发工具。Intellij IDEA...">
+    <script src="//g.csdnimg.cn/tingyun/1.8.5/blog.js" type='text/javascript'></script>
+        <link rel="stylesheet" type="text/css" href="https://csdnimg.cn/release/blogv2/dist/pc/css/detail_enter-5667fdc9ab.min.css">
+    <style>
+        #content_views pre{
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none; 
+            user-select: none; 
+        }
+        #content_views pre code{
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none; 
+            user-select: none; 
+        }
+    </style>
+    <script type="application/ld+json">{"@context":"https://ziyuan.baidu.com/contexts/cambrian.jsonld","@id":"https://blog.csdn.net/weixin_39780255/article/details/110473731","appid":"1638831770136827","pubDate":"2020-12-02T06:25:42","title":"idea可以开发python吗_IntelliJ IDEA必备7款Python插件_weixin_39780255的博客-CSDN博客","upDate":"2020-12-02T06:25:42"}</script>
+        <link rel="stylesheet" type="text/css" href="https://csdnimg.cn/release/blogv2/dist/pc/themesSkin/skin-whitemove/skin-whitemove-2af9149bdc.min.css">
+    <script src="https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var isCorporate = false;//注释删除enterprise
+        var username =  "weixin_39780255";
+        var skinImg = "white";
+        var blog_address = "https://blog.csdn.net/weixin_39780255";
+        var currentUserName = "";
+        var isOwner = false;
+        var loginUrl = "http://passport.csdn.net/account/login?from=https://blog.csdn.net/weixin_39780255/article/details/110473731";
+        var blogUrl = "https://blog.csdn.net/";
+        var avatar = "https://profile.csdnimg.cn/4/B/D/3_weixin_39780255";
+        var articleTitle = "idea可以开发python吗_IntelliJ IDEA必备7款Python插件";
+        var articleDesc = "专注Python、AI、大数据，请关注公众号七步编程！​提起Python IDE，很多同学首先都会想到PyCharm，毋庸置疑，PyCharm针对Python和Django很好的支持，已经在项目管理方面的强大之处，使得成为一款非常优秀的IDE，也受到很多专业开发人员的青睐。而今天要介绍的是利用与PyCharm出自同一家的Intellij IDEA作为Python开发工具。Intellij IDEA...";
+        var articleTitles = "idea可以开发python吗_IntelliJ IDEA必备7款Python插件_weixin_39780255的博客-CSDN博客";
+        var nickName = "weixin_39780255";
+        var articleDetailUrl = "https://blog.csdn.net/weixin_39780255/article/details/110473731";
+        if(window.location.host.split('.').length == 3) {
+            blog_address = blogUrl + username;
+        }
+        var skinStatus = "White";
+        var blogStaticHost = "https://csdnimg.cn/release/blogv2/"
+        var mallTestStyle = "control"
+    </script>
+    <script src="https://g.csdnimg.cn/??fixed-sidebar/1.1.6/fixed-sidebar.js" type="text/javascript"></script>
+    <script src='//g.csdnimg.cn/common/csdn-report/report.js' type='text/javascript'></script>
+    <link rel="stylesheet" type="text/css" href="https://csdnimg.cn/public/sandalstrap/1.4/css/sandalstrap.min.css">
+    <style>
+        .MathJax, .MathJax_Message, .MathJax_Preview{
+            display: none
+        }
+    </style>
+    <script src="https://dup.baidustatic.com/js/ds.js"></script>
+</head>
+  <body class="nodata " style="">
+        <script>
+            var toolbarSearchExt = '{"landingWord":["idea写python好吗"],"queryWord":"","tag":["idea可以开发python吗"],"title":"idea可以开发python吗_IntelliJ IDEA必备7款Python插件"}';
+        </script>
+    <script src="https://g.csdnimg.cn/common/csdn-toolbar/csdn-toolbar.js" type="text/javascript"></script>
+    <script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    </script>
+<link rel="stylesheet" href="https://csdnimg.cn/release/blogv2/dist/pc/css/blog_code-01256533b5.min.css">
+<link rel="stylesheet" href="https://csdnimg.cn/release/blogv2/dist/mdeditor/css/editerView/chart-3456820cac.css" />
+
+<script>
+    var articleId = 110473731;
+    var commentscount = 0;
+    var curentUrl = "https://blog.csdn.net/weixin_39780255/article/details/110473731";
+    var myUrl = "https://my.csdn.net/";
+    var highlight = ["intellij","python","idea","插件","必备","开发","可以","吗","7","写","好","款"];//高亮数组
+    var isRecommendModule = true;
+    var isBaiduPre = true;
+    var baiduCount = 2;
+    var setBaiduJsCount = 10;
+    var share_card_url = "https://app-blog.csdn.net/share?article_id=110473731&username=weixin_39780255"
+	var articleType = 0;
+    var baiduKey = "idea写python好吗";
+    var userNewReport = true;
+    var needInsertBaidu = true;
+    var recommendRegularDomainArr = ["blog.csdn.net/.+/article/details/","download.csdn.net/download/","edu.csdn.net/course/detail/","ask.csdn.net/questions/","bbs.csdn.net/topics/","www.csdn.net/gather_.+/"]
+    var codeStyle = "";
+    var baiduSearchType = "baidulandingword";
+    var canRead = true;
+    var blogMoveHomeArticle = true;
+    var showPcWindowAd = false;
+    var showHeadWord = true;
+    var showSearchText = "";
+    var linkPage = true;
+    var articleSource = 4;
+    var articleReport = '{"pid": "blog", "spm":"1001.2101"}';
+    var isShowToQuestion = false;
+    var baiduSearchChannel = 'pc_relevant'
+    var baiduSearchIdentification = '.pc_relevant_default'
+    var distRequestId = '1658366535340_37127'
+    var initRewardObject = {
+        giver: currentUserName,
+        anchor: username,
+        articleId: articleId,
+        sign: ''
+    }
+    var isLikeStatus = false;
+    var isUnLikeStatus = false;
+    var studyLearnWord = "";
+    var isCurrentUserVip = false;
+    var testNewStyle = "oldStyle"
+    var isShowConcision = false;
+    var isCookieConcision = false
+    var isHasDirectoryModel = false
+    var isShowSideModel = false
+    var isShowDirectoryModel = true
+    function getCookieConcision(sName){
+        var allCookie = document.cookie.split("; ");
+        for (var i=0; i < allCookie.length; i++){
+            var aCrumb = allCookie[i].split("=");
+            if (sName == aCrumb[0])
+                return aCrumb[1];
+        }
+        return null;
+    }
+    if (getCookieConcision('blog_details_concision') && getCookieConcision('blog_details_concision') == 0){
+        isCookieConcision = true
+        isShowSideModel = true
+        isShowDirectoryModel = false
+    }
+</script>
+<div class="main_father clearfix d-flex justify-content-center " style="height:100%;"> 
+    <div class="container clearfix " id="mainBox">
+        <script>
+        if(!isCookieConcision){
+            $('.main_father').removeClass('mainfather-concision')
+            $('.main_father .container').removeClass('container-concision')
+        }
+        </script>
+        <main>
+<script type="text/javascript">
+    function getQueryString(name) {   
+      var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象  
+      var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+      if( r != null ) return decodeURIComponent( r[2] ); return '';   
+    }
+    function stripscript(s){ 
+      var pattern = new RegExp("[`~!@#$^&*()=|{}':;',\\[\\].<>/?~！@#￥……&*（）——|{}【】‘；：”“'。，、？%]") 
+      var rs = ""; 
+      for (var i = 0; i < s.length; i++) { 
+        rs = rs+s.substr(i, 1).replace(pattern, ''); 
+      } 
+      return rs; 
+    }
+    var blogHotWords = stripscript(getQueryString('utm_term')).length > 1 ? stripscript(getQueryString('utm_term')) : ''
+</script>
+<div class="blog-content-box">
+        <div class="article-header-box">
+        <div class="article-header">
+            <div class="article-title-box">
+                <h1 class="title-article" id="articleContentId">idea可以开发python吗_IntelliJ IDEA必备7款Python插件</h1>
+            </div>
+            <div class="article-info-box">
+                <div class="article-bar-top">
+                    <div class="bar-content">
+                    <a class="follow-nickName " href="https://blog.csdn.net/weixin_39780255" target="_blank" rel="noopener">weixin_39780255</a>
+                    <img class="article-time-img article-heard-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newCurrentTime2.png" alt="">
+                    <span class="time">于&nbsp;2020-12-02 06:25:42&nbsp;发布</span>
+                    <img class="article-read-img article-heard-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/articleReadEyes2.png" alt="">
+                    <span class="read-count">1932</span>
+                    <a id="blog_detail_zk_collection" class="un-collection" data-report-click='{"mod":"popu_823","spm":"1001.2101.3001.4232","ab":"new"}'>
+                        <img class="article-collect-img article-heard-img un-collect-status isdefault" style="display:inline-block" src="https://csdnimg.cn/release/blogv2/dist/pc/img/tobarCollect2.png" alt="">
+                        <img class="article-collect-img article-heard-img collect-status isactive" style="display:none" src="https://csdnimg.cn/release/blogv2/dist/pc/img/tobarCollectionActive2.png" alt="">
+                        <span class="name">收藏</span>
+                        <span class="get-collection">
+                            5
+                        </span>
+                    </a>
+                    </div>
+                </div>
+                <div class="blog-tags-box">
+                    <div class="tags-box artic-tag-box">
+                            <span class="label">文章标签：</span>
+                                <a data-report-click='{"mod":"popu_626","spm":"1001.2101.3001.4223","strategy":"idea可以开发python吗","ab":"new"}' class="tag-link" href="https://so.csdn.net/so/search/s.do?q=idea%E5%8F%AF%E4%BB%A5%E5%BC%80%E5%8F%91python%E5%90%97&amp;t=blog&amp;o=vip&amp;s=&amp;l=&amp;f=&amp;viparticle=" target="_blank" rel="noopener">idea可以开发python吗</a>
+                    </div>
+                </div>
+                <div class="slide-content-box">
+                </div>
+                <div class="operating">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="blogHuaweiyunAdvert"></div>
+    <article class="baidu_pl">
+        <div id="article_content" class="article_content clearfix">
+        <link rel="stylesheet" href="https://csdnimg.cn/release/blogv2/dist/mdeditor/css/editerView/ck_htmledit_views-bbac9290cd.css">
+                <div id="content_views" class="htmledit_views">
+                    <div style="font-size:16px;">
+ <p>专注Python、AI、大数据&#xff0c;请关注公众号七步编程&#xff01;</p>
+ <p>​提起Python IDE&#xff0c;很多同学首先都会想到PyCharm&#xff0c;毋庸置疑&#xff0c;PyCharm针对Python和Django很好的支持&#xff0c;已经在项目管理方面的强大之处&#xff0c;使得成为一款非常优秀的IDE&#xff0c;也受到很多专业开发人员的青睐。</p>
+ <p>而今天要介绍的是利用与PyCharm出自同一家的Intellij IDEA作为Python开发工具。</p>
+ <p>Intellij IDEA的主要优点在于&#xff0c;它全面的支持Jython各种功能&#xff0c;例如&#xff0c;跨语言导航、补全、重构。而PyCharm对Jython的支持就相对弱很多。</p>
+ <p>除此之外&#xff0c;IDEA能够适用于多种不同的编程语言&#xff0c;JetBrains家族的软件有一个共同的特点就是占用内存&#xff0c;如果针对不同编程语言都安装一款对应的IDE&#xff0c;这样势必会占用很大一部分内存。如果使用IDEA&#xff0c;你只需要安装这1款就够了。</p>
+ <p>Intellij IDEA Python插件的主要优点是其全面的Jython支持功能(跨语言导航&#xff0c;补全和重构)。PyCharm仅支持Jython作为运行应用程序的运行时。因此&#xff0c;如果您在项目中使用Java / Python集成&#xff0c;那么仅PyCharm就无法完成工作。</p>
+ <p>与JetBrains IDE之间的这种关系相关的另一个原因是&#xff0c;PyCharm支持的插件通常与Intellij IDEA兼容。因为它基于Intellij的相同IDE框架&#xff0c;所以这很合理。</p>
+ <p>因此&#xff0c;本文介绍利用IDEA作为Python开发工具。当然&#xff0c;这需要你在IDEA上安装Python基本插件。</p>
+ <p>基本的插件将为你提供Python脚本的智能编辑功能&#xff0c;从而有效地扩展Intellij IDEA的功能&#xff0c;使其与PyCharm的功能相匹配&#xff0c;从而解决所有与Python有关的问题和目的。</p>
+ <p>但是&#xff0c;要想更加高效的编码&#xff0c;这些基本的插件是远远不够的。本文&#xff0c;就来介绍7款优秀的IDEA插件&#xff0c;让你Python开发效率迅速提升。</p>
+ <p align="center">1. Pylint<img src="" alt="" /></p>
+ <p>顾名思义&#xff0c;PyLint即为Python Linter&#xff0c;它是一款Python代码静态检查工具&#xff0c;可以实时扫描Python文件&#xff0c;检查不符合规范的地方&#xff0c;从而辅助代码的编辑。</p>
+ <p>此外&#xff0c;Pylint作为当下最为流行的Python静态检查工具之一&#xff0c;它拥有大量的文档&#xff0c;可以按需进行定制使用。</p>
+ <p align="center">2. Python Smart Execute<img src="" alt="" /></p>
+ <p>如果你经常在控制台下执行Python&#xff0c;那么Python Smart Execute是一个非常不错的选择。</p>
+ <p>它能够自动将控制台下执行的代码行发送到Python文件&#xff0c;并且可以通过快捷键进行轻松访问。</p>
+ <p align="center">3. Tabnine<img src="" alt="" /></p>
+ <p>关于这款软件&#xff0c;我曾经用一篇文章专门介绍过。</p>
+ <p>从严格意义上讲&#xff0c;Tapnine不是严格意义上的Python插件&#xff0c;它是编程生产力工具&#xff0c;可帮助您更快地编写更好的代码。</p>
+ <p>Tabnine使用GPT-2以Python和其他语言提供高度准确的代码预测。</p>
+ <p>在使用过程中发现&#xff0c;它的预测准确度可以达到惊人的程度&#xff0c;能够减少代码编辑工作量&#xff0c;根据上下文自动补全你所需的代码块。</p>
+ <p align="center">4. MyPy<img src="" alt="" /></p>
+ <p>MyPy是Python中另外一款知名的静态类型检查工具和源代码分析工具&#xff0c;旨在结合动态类型和静态类型的优点&#xff0c;能够查找编程错误&#xff0c;帮助提升代码质量。</p>
+ <p align="center">5. DeepBugs for Python<img src="" alt="" /></p>
+ <p>该插件由JetBrains研究部门开发&#xff0c;有望通过使用深度学习模型来发现Python代码中的潜在错误和质量问题。</p>
+ <p>DeepBugs可以根据提取的代码语义来检测错误&#xff0c;例如&#xff0c;错误的函数参数&#xff0c;错误的比较以及其他错误。</p>
+ <p align="center">6. Live Coding in Python<img src="" alt="" /></p>
+ <p>有时候&#xff0c;我们只有等待程序运行结束才能看到不同变量的值以及结果&#xff0c;这样需要漫长的等待。</p>
+ <p>Live Coding in Python可以让开发者在输入并运行代码的过程中就可以查看自己想要的结果。</p>
+ <p>Intellij IDEA工作区右侧的专用面板中显示变量值&#xff0c;matplotlib&#xff0c;Pyglet或turtle图形。</p>
+ <p>7. Python Enhancements</p>
+ <p>当在开发一个项目过程中&#xff0c;经过反反复复的修改、迭代&#xff0c;会产生大量的无效代码。</p>
+ <p>这样会让项目变得臃肿&#xff0c;维护起来也非常麻烦。</p>
+ <p>Python Enhancements是一款进行检查以检测潜在的无效代码以及生成样板代码&#xff0c;能够有效的减少无效代码&#xff0c;给你的项目工程瘦瘦身。</p>
+</div>
+                </div>
+        </div>
+        <div id="treeSkill"></div>
+<div id="recommendDown">
+</div>    </article>
+  <script>
+  $(function() {
+    setTimeout(function () {
+      var mathcodeList = document.querySelectorAll('.htmledit_views img.mathcode');
+      if (mathcodeList.length > 0) {
+        var testImg = new Image();
+        testImg.onerror = function () {
+          mathcodeList.forEach(function (item) {
+            $(item).before('<span class="img-codecogs">\\(' + item.alt + '\\)</span>');
+            $(item).remove();
+          })
+          MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+        }
+        testImg.src = mathcodeList[0].src;
+      }
+    }, 1000)
+  })
+  </script>
+</div>
+<div class="more-toolbox-new" id="toolBarBox">
+    <div class="left-toolbox">
+        <div class="toolbox-left">
+            <div class="profile-box"><a class="profile-href" target="_blank" href="https://blog.csdn.net/weixin_39780255"><img class="profile-img" src="https://profile.csdnimg.cn/4/B/D/3_weixin_39780255"><span class="profile-name">weixin_39780255</span></a></div>
+            <div class="profile-attend">
+                    <a class="tool-attend tool-bt-button tool-bt-attend" href="javascript:;" data-report-view='{"mod":"1592215036_002","spm":"1001.2101.3001.4232","extend1":"关注"}'>关注</a>
+                <a class="tool-item-follow active-animation" style="display:none;">关注</a>
+            </div>
+        </div>
+        <div class="toolbox-middle">
+        <ul class="toolbox-list">
+            <li class="tool-item tool-item-size tool-active is-like" id="is-like">
+            <a class="tool-item-href">
+                <img style="display:none;" id="is-like-imgactive-animation-like" class="animation-dom active-animation" src="https://csdnimg.cn/release/blogv2/dist/pc/img/tobarThumbUpactive.png" alt="">
+                <img class="isactive" style="display:none" id="is-like-imgactive" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newHeart2021Active.png" alt="">
+                <img class="isdefault" style="display:block" id="is-like-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newHeart2021White.png" alt="">  
+                <span id="spanCount" class="count ">
+                        1
+                </span>
+            </a>
+            <div class="tool-hover-tip"><span class="text space">点赞</span></div>
+            </li>
+            <li class="tool-item tool-item-size tool-active is-unlike" id="is-unlike">
+            <a class="tool-item-href">
+                <img class="isactive" style="margin-right:0px;display:none" id="is-unlike-imgactive" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newUnHeart2021Active.png" alt="">
+                <img class="isdefault" style="margin-right:0px;display:block" id="is-unlike-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newUnHeart2021White.png" alt="">
+                <span id="unlikeCount" class="count "></span>
+            </a>
+            <div class="tool-hover-tip"><span class="text space">踩</span></div>
+            </li>
+            <li class="tool-item tool-item-size tool-active tool-item-comment">
+            <a class="tool-item-href" href="#commentBox" data-report-click='{"spm":"1001.2101.3001.7009"}'>
+                <img class="isdefault" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newComment2021White.png" alt="">
+                <span class="count">
+                    0
+                </span>
+            </a>
+            <div class="tool-hover-tip"><span class="text space">评论</span></div>
+            </li>
+            <li class="tool-item tool-item-size tool-active is-collection ">
+            <a class="tool-item-href" href="javascript:;" data-report-click='{"mod":"popu_824","spm":"1001.2101.3001.4130","ab":"new"}'>
+                <img style="display:none" id="is-collection-img-collection" class="animation-dom active-animation" src="https://csdnimg.cn/release/blogv2/dist/pc/img/tobarCollectionActive.png" alt="">
+                <img class="isdefault" id="is-collection-img" style="display:block" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newCollectWhite.png" alt="">
+                <img class="isactive" id="is-collection-imgactive" style="display:none" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newCollectActive.png" alt="">
+                <span class="count get-collection " id="get-collection">
+                    5
+                </span>
+            </a>
+            <div class="tool-hover-tip"><span class="text space">收藏</span></div>
+            </li>
+            <li class="tool-item tool-item-bar">
+            </li>
+            <li class="tool-item tool-item-size tool-active tool-QRcode" id="tool-share">
+                <a class="tool-item-href" href="javascript:;" data-report-click='{"mod":"1582594662_002","spm":"1001.2101.3001.4129","ab":"new"}'>
+                    <img class="isdefault" src="https://csdnimg.cn/release/blogv2/dist/pc/img/newShareWhite.png" alt="">
+                </a>
+                <div class="QRcode" id="tool-QRcode">
+                    <p class="title">
+                    扫一扫，分享内容
+                    </p>
+                    <div id='shareCode'></div>
+                    <a id="copyPosterUrl" class="url" data-report-click='{"spm":"1001.2101.3001.7493"}' data-report-view='{"spm":"1001.2101.3001.7493"}'>点击复制链接</a>
+                </div>
+            </li>
+        </ul>
+        </div>
+        <div class="toolbox-right">
+        </div>
+    </div>  
+</div>
+<script type=text/javascript crossorigin src="https://csdnimg.cn/release/phoenix/production/qrcode-7c90a92189.min.js"></script>
+<script src="//g.csdnimg.cn/??sharewx/1.2.1/sharewx.js" type="text/javascript"></script>
+<script type="text/javascript" crossorigin src="https://g.csdnimg.cn/user-login/3.0.1/user-login.js"></script>
+<script type="text/javascript" crossorigin src="https://g.csdnimg.cn/collection-box/2.1.0/collection-box.js"></script>
+                <div class="first-recommend-box recommend-box ">
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/u013320881/article/details/81603529"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6661.1","mod":"popu_871","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1-81603529-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"1","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/u013320881/article/details/81603529"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/u013320881/article/details/81603529" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6661.1","mod":"popu_871","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1-81603529-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"1","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/u013320881/article/details/81603529"}'  data-report-query='spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-81603529-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-81603529-blog-110473731.pc_relevant_default'>
+					<div class="left ellipsis-online ellipsis-online-1"><em>idea</em>添加<em>Python</em><em>插件</em></div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/u013320881" target="_blank"><span class="blog-title">Pierce的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">08-12</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					4904
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/u013320881/article/details/81603529" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6661.1","mod":"popu_871","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1-81603529-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"1","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/u013320881/article/details/81603529"}'  data-report-query='spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-81603529-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-81603529-blog-110473731.pc_relevant_default'>
+				<div class="desc ellipsis-online ellipsis-online-1">准备：
+
+1.安装<em>IDEA</em>
+
+2.安装了<em>python</em>
+
+一、安装<em>插件</em>
+
+1.添加<em>python</em><em>插件</em>
+
+
+
+二、应用<em>插件</em>
+
+1.在<em>intelliJ</em>新建一个empty项目&nbsp;
+File-&amp;gt;New module&amp;gt;<em>python</em>：&nbsp;
+module SDK选择&ldquo;<em>Python</em>2<em>7</em>\<em>python</em>.exe&rdquo;&nbsp;
+点完成就<em>可以</em>了&nbsp;
+
+
+
+3.创建项目&nbsp;
+
+
+
+&nbsp;...</div>
+			</a>
+		</div>
+	</div>
+</div>
+                </div>
+            <script src="https://csdnimg.cn/release/blogv2/dist/components/js/pc_wap_commontools-60a48feb57.min.js" type="text/javascript" async></script>
+            <div class="second-recommend-box recommend-box ">
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/xufan601391682/article/details/100928759"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.1","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-100928759-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"1","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/xufan601391682/article/details/100928759"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/xufan601391682/article/details/100928759" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.1","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-100928759-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"1","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/xufan601391682/article/details/100928759"}'  data-report-query='spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-100928759-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-100928759-blog-110473731.pc_relevant_default'>
+					<div class="left ellipsis-online ellipsis-online-1"><em>python</em> 学习（一）&mdash;&mdash; <em>idea</em>环境下<em>开发</em><em>python</em></div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/xufan601391682" target="_blank"><span class="blog-title">xufan601391682的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">09-17</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					991
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/xufan601391682/article/details/100928759" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.1","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-100928759-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"1","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/xufan601391682/article/details/100928759"}'  data-report-query='spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-100928759-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-100928759-blog-110473731.pc_relevant_default'>
+				<div class="desc ellipsis-online ellipsis-online-1"><em>Python</em> 简介
+
+ <em>Python</em> 是一种解释型语言： 这意味着<em>开发</em>过程中没有了编译这个环节。
+	 <em>Python</em> 是交互式语言： 这意味着，您<em>可以</em>在一个 <em>Python</em> 提示符 &gt;&gt;&gt; 后直接执行代码。
+
+
+ <em>Python</em> 是面向对象语言: 这意味着<em>Python</em>支持面向对象的风格或代码封装在对象的编程技术。
+	 <em>Python</em> 是初学者的语言：<em>Python</em> ...</div>
+			</a>
+		</div>
+	</div>
+</div>
+            </div>
+<a id="commentBox" name="commentBox"></a>
+<div id="pcCommentBox" class="comment-box comment-box-new2 unlogin-comment-box-new" style="display:none">
+	<div class="unlogin-comment-model">
+			<span class="unlogin-comment-tit">参与评论</span>
+			<span class="unlogin-comment-text">您还未登录，请先</span>
+			<span class="unlogin-comment-bt">登录</span>
+			<span class="unlogin-comment-text">后发表或查看评论</span>
+	</div>
+</div>
+            <div class="recommend-box insert-baidu-box recommend-box-style ">
+                <div class="recommend-item-box clearfix no-index" style="display:none"></div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/weixin_46143392/article/details/120404399"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.2","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-2-120404399-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"2","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/weixin_46143392/article/details/120404399"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/weixin_46143392/article/details/120404399" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.2","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-2-120404399-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"2","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/weixin_46143392/article/details/120404399"}'  data-report-query='spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2-120404399-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2-120404399-blog-110473731.pc_relevant_default'>
+					<div class="left ellipsis-online ellipsis-online-1"><em>IDEA</em>中编<em>写</em><em>Python</em>代码</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/weixin_46143392" target="_blank"><span class="blog-title">weixin_46143392的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">09-21</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					4383
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/weixin_46143392/article/details/120404399" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.2","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-2-120404399-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"2","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/weixin_46143392/article/details/120404399"}'  data-report-query='spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2-120404399-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2-120404399-blog-110473731.pc_relevant_default'>
+				<div class="desc ellipsis-online ellipsis-online-1">一、打开<em>IDEA</em> 新建项目 如图所示 下载<em>Python</em><em>插件</em>
+
+
+
+二、此时新建项目就会出现Pyhon项目选项、然后安装<em>Python</em>的SDK
+
+
+
+三、安装完成之后就<em>可以</em>创建<em>Python</em>文件了
+
+
+
+注意！！！在<em>IDEA</em>中需要加上
+
+
+if __name__ == &#39;__main__&#39;: 才可输出
+
+
+
+
+...</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/yuhaibao324/article/details/108125883"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.3","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3-108125883-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"3","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/yuhaibao324/article/details/108125883"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/yuhaibao324/article/details/108125883" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.3","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3-108125883-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"3","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/yuhaibao324/article/details/108125883"}'  data-report-query='spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3-108125883-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3-108125883-blog-110473731.pc_relevant_default'>
+					<div class="left ellipsis-online ellipsis-online-1"><em>IDEA</em>的<em>python</em>安装与优化配置</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/yuhaibao324" target="_blank"><span class="blog-title">技术黑板</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">08-20</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					809
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/yuhaibao324/article/details/108125883" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.3","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3-108125883-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"3","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/yuhaibao324/article/details/108125883"}'  data-report-query='spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3-108125883-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3-108125883-blog-110473731.pc_relevant_default'>
+				<div class="desc ellipsis-online ellipsis-online-1">《如何利用<em>Intellij</em> <em>Idea</em>搭建<em>python</em>编译运行环境》
+
+喜欢用IDE做<em>开发</em>的程序员必然不会错过JetBrains家族的IDE。JB出品，必属精品，任何一<em>款</em>产品都是IDE中的神兵利器。
+
+在它们中间，最为著名的当属<em>Intellij</em> <em>Idea</em>。它原是Java语言<em>开发</em>的集成环境，但是它的旗舰版，经过改造以后<em>可以</em>成为当今世界绝大多数语言的理想IDE。
+
+现在我们来谈谈如何利用它来构建<em>python</em>的IDE。
+
+题外：为什么不直接用pycharm？
+
+pycharm固然也是一个非常<em>好</em>用的<em>python</em>...</div>
+			</a>
+		</div>
+	</div>
+</div>
+		<dl id="recommend-item-box-tow" class="recommend-item-box type_blog clearfix">
+			
+		</dl>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/qq_32097903/article/details/110949791"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.4","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-4-110949791-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"4","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/qq_32097903/article/details/110949791"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/qq_32097903/article/details/110949791" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.4","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-4-110949791-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"4","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/qq_32097903/article/details/110949791"}'  data-report-query='spm=1001.2101.3001.6650.4&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-4-110949791-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-4-110949791-blog-110473731.pc_relevant_default'>
+					<div class="left ellipsis-online ellipsis-online-1">使用<em>idea</em><em>写</em><em>python</em>需要这样做...</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/qq_32097903" target="_blank"><span class="blog-title">White</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">12-10</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					261
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/qq_32097903/article/details/110949791" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.4","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-4-110949791-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"4","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/qq_32097903/article/details/110949791"}'  data-report-query='spm=1001.2101.3001.6650.4&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-4-110949791-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-4-110949791-blog-110473731.pc_relevant_default'>
+				<div class="desc ellipsis-online ellipsis-online-1">https://blog.csdn.net/qq_38188<em>7</em>25/article/details/80623<em>7</em>10
+https://blog.csdn.net/qq_38188<em>7</em>25/article/details/80624004
+感谢博主，参考了这两篇！
+
+</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/x530681545/article/details/125129169"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.5","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-5-125129169-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"5","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/x530681545/article/details/125129169"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/x530681545/article/details/125129169" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.5","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-5-125129169-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"5","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/x530681545/article/details/125129169"}'  data-report-query='spm=1001.2101.3001.6650.5&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-5-125129169-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-5-125129169-blog-110473731.pc_relevant_default'>
+					<div class="left ellipsis-online ellipsis-online-1">用<em>IntelliJ</em> <em>IDEA</em><em>开发</em><em>Python</em></div>
+					<div class="tag">最新发布</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/x530681545" target="_blank"><span class="blog-title">x530681545的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">06-05</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					515
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/x530681545/article/details/125129169" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.5","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-5-125129169-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"5","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/x530681545/article/details/125129169"}'  data-report-query='spm=1001.2101.3001.6650.5&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-5-125129169-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-5-125129169-blog-110473731.pc_relevant_default'>
+				<div class="desc ellipsis-online ellipsis-online-1">用<em>IntelliJ</em> <em>IDEA</em><em>开发</em><em>Python</em></div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/weixin_39992760/article/details/109937460"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.6","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-6-109937460-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"6","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/weixin_39992760/article/details/109937460"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/weixin_39992760/article/details/109937460" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.6","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-6-109937460-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"6","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/weixin_39992760/article/details/109937460"}'  data-report-query='spm=1001.2101.3001.6650.6&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-6-109937460-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-6-109937460-blog-110473731.pc_relevant_default'>
+					<div class="left ellipsis-online ellipsis-online-1"><em>python</em><em>开发</em><em>可以</em>用<em>idea</em><em>吗</em>_<em>IntelliJ</em> <em>IDEA</em> <em>开发</em><em>Python</em>配置</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/weixin_39992760" target="_blank"><span class="blog-title">weixin_39992760的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">11-21</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					1779
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/weixin_39992760/article/details/109937460" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.6","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-6-109937460-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"6","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/weixin_39992760/article/details/109937460"}'  data-report-query='spm=1001.2101.3001.6650.6&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-6-109937460-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-6-109937460-blog-110473731.pc_relevant_default'>
+				<div class="desc ellipsis-online ellipsis-online-1"><em>IDEA</em> 全称 <em>IntelliJ</em> <em>IDEA</em>，是java编程语言<em>开发</em>的集成环境，<em>IntelliJ</em>在业界被公认为最<em>好</em>的java<em>开发</em>工具之一。通过安装<em>python</em><em>插件</em>即可实现在<em>IntelliJ</em>下<em>开发</em><em>python</em>程序；工具/原料<em>IntelliJ</em> <em>IDEA</em> 2018.3<em>Python</em> 3ThinkPad E431方法/步骤1打开<em>IntelliJ</em>，点击打开Configurel下拉菜单；2点击&ldquo;<em>插件</em>&rdquo;进入<em>插件</em>管理...</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/yuhaibao324/article/details/108090245"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.7","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-7-108090245-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"7","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/yuhaibao324/article/details/108090245"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/yuhaibao324/article/details/108090245" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.7","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-7-108090245-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"7","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/yuhaibao324/article/details/108090245"}'  data-report-query='spm=1001.2101.3001.6650.7&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-7-108090245-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-7-108090245-blog-110473731.pc_relevant_default'>
+					<div class="left ellipsis-online ellipsis-online-1"><em>IDEA</em>下<em>开发</em><em>Python</em></div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/yuhaibao324" target="_blank"><span class="blog-title">技术黑板</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">08-18</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					1146
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/yuhaibao324/article/details/108090245" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.7","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-7-108090245-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"7","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/yuhaibao324/article/details/108090245"}'  data-report-query='spm=1001.2101.3001.6650.7&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-7-108090245-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-7-108090245-blog-110473731.pc_relevant_default'>
+				<div class="desc ellipsis-online ellipsis-online-1">用<em>IDEA</em><em>开发</em><em>Python</em>
+
+<em>IDEA</em>是一<em>款</em>不错的集成<em>开发</em>工具，<em>可以</em>从官网下载社区版本（免费）和商业版本（收费）。为了获取更多更全我功能，建议使用商业版本（关于如何破解请自行baidu）。
+
+步1：安装<em>IDEA</em>
+
+本人下载的是zip压缩格式的，您<em>可以</em>下载exe格式的文件。对于exe格式的文件，直接点运行直到安装完成即可。对于zip格式的文件：
+
+<em>idea</em>IU-201<em>7</em>.3.3.win.zip
+
+
+
+运行时显示界面：
+
+
+
+步2：安装<em>Python</em>
+
+首先去<em>Python</em>的官网下载<em>Python</em><em>开发</em>环境。
+
+h..</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/laokekekekeke/article/details/118969291"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.8","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-8-118969291-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"8","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/laokekekekeke/article/details/118969291"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/laokekekekeke/article/details/118969291" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.8","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-8-118969291-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"8","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/laokekekekeke/article/details/118969291"}'  data-report-query='spm=1001.2101.3001.6650.8&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-8-118969291-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-8-118969291-blog-110473731.pc_relevant_default'>
+					<div class="left ellipsis-online ellipsis-online-1">在<em>IDEA</em>中<em>写</em><em>Python</em></div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/laokekekekeke" target="_blank"><span class="blog-title">laokekekekeke的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">07-22</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					1856
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/laokekekekeke/article/details/118969291" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.8","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-8-118969291-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"8","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/laokekekekeke/article/details/118969291"}'  data-report-query='spm=1001.2101.3001.6650.8&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-8-118969291-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-8-118969291-blog-110473731.pc_relevant_default'>
+				<div class="desc ellipsis-online ellipsis-online-1">目录
+
+
+
+安装环境
+
+一、安装环境
+
+1、<em>IDEA</em>（下载）
+
+在<em>IDEA</em>中，点击File-&gt;Settings...-&gt;Plugins，在里面搜索<em>python</em>，并安装<em>插件</em>。（安装后需要重启有效）
+	
+2、<em>Python</em>（下载）
+
+3、Anconda（下载）
+
+将Anconda安装目录添加到环境变量中
+右击【此电脑】&ndash;【属性】&ndash;【高级系统设置】&ndash;【环境变量】&ndash;【系统变量】&ndash;【Path】-【编辑】-【新增】
+
+
+D:\Anaconda3
+D:\Anaconda3\Scripts
+D:\Library\</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/jakpopc/article/details/118584691"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.9","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-9-118584691-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"9","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/jakpopc/article/details/118584691"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/jakpopc/article/details/118584691" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.9","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-9-118584691-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"9","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/jakpopc/article/details/118584691"}'  data-report-query='spm=1001.2101.3001.6650.9&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-9-118584691-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-9-118584691-blog-110473731.pc_relevant_default'>
+					<div class="left ellipsis-online ellipsis-online-1"><em>IntelliJ</em> <em>IDEA</em><em>必备</em><em>7</em><em>款</em><em>Python</em><em>插件</em></div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/jakpopc" target="_blank"><span class="blog-title">jakpopc的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">07-08</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					1267
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/jakpopc/article/details/118584691" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.9","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-9-118584691-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"9","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/jakpopc/article/details/118584691"}'  data-report-query='spm=1001.2101.3001.6650.9&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-9-118584691-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-9-118584691-blog-110473731.pc_relevant_default'>
+				<div class="desc ellipsis-online ellipsis-online-1">提起<em>Python</em> IDE，很多同学首先都会想到PyCharm，毋庸置疑，PyCharm针对<em>Python</em>和Django很<em>好</em>的支持，已经在项目管理方面的强大之处，使得成为一<em>款</em>非常优秀的IDE，也受到很多专业<em>开发</em>人员的青睐。
+
+而今天要介绍的是利用与PyCharm出自同一家的<em>Intellij</em> <em>IDEA</em>作为<em>Python</em><em>开发</em>工具。
+
+<em>Intellij</em> <em>IDEA</em>的主要优点在于，它全面的支持Jython各种功能，例如，跨语言导航、补全、重构。而PyCharm对Jython的支持就相对弱很多。
+
+除此之外，<em>IDEA</em>能够适用</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/nnnnn68/article/details/106074479"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.10","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-10-106074479-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"10","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/nnnnn68/article/details/106074479"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/nnnnn68/article/details/106074479" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.10","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-10-106074479-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"10","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/nnnnn68/article/details/106074479"}'  data-report-query='spm=1001.2101.3001.6650.10&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-10-106074479-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-10-106074479-blog-110473731.pc_relevant_default'>
+					<div class="left ellipsis-online ellipsis-online-1"><em>Intellij</em> <em>IDEA</em>15 编<em>写</em><em>Python</em></div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/nnnnn68" target="_blank"><span class="blog-title">nnnnn68的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">05-12</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					140
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/nnnnn68/article/details/106074479" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.10","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-10-106074479-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"10","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/nnnnn68/article/details/106074479"}'  data-report-query='spm=1001.2101.3001.6650.10&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-10-106074479-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-10-106074479-blog-110473731.pc_relevant_default'>
+				<div class="desc ellipsis-online ellipsis-online-1"><em>Intellij</em> <em>IDEA</em>15：建立<em>Python</em> 工程
+原文地址 https://blog.csdn.net/weixin_41659384/article/details/80636535
+五个步鄹：
+1）Windows中<em>Python</em>安装
+2）<em>Intellij</em> <em>IDEA</em>15中<em>Python</em>安装
+3）<em>Intellij</em> <em>IDEA</em>15建立<em>Python</em>项目
+4）编辑<em>Python</em>脚本
+5）安装pip
+Windows中<em>Python</em>安装：
+
+<em>Intellij</em> <em>IDEA</em>15中<em>Python</em>安装：
+
+<em>Intellij</em> <em>IDEA</em></div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/weixin_39748928/article/details/114911182"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.11","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-11-114911182-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"11","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/weixin_39748928/article/details/114911182"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/weixin_39748928/article/details/114911182" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.11","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-11-114911182-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"11","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/weixin_39748928/article/details/114911182"}'  data-report-query='spm=1001.2101.3001.6650.11&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-11-114911182-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-11-114911182-blog-110473731.pc_relevant_default'>
+					<div class="left ellipsis-online ellipsis-online-1"><em>python</em> <em>idea</em> 常用<em>插件</em>_PyCharm常用配置和常用<em>插件</em>(小结)</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/weixin_39748928" target="_blank"><span class="blog-title">weixin_39748928的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">03-01</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					107
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/weixin_39748928/article/details/114911182" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.11","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-11-114911182-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"11","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/weixin_39748928/article/details/114911182"}'  data-report-query='spm=1001.2101.3001.6650.11&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-11-114911182-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-11-114911182-blog-110473731.pc_relevant_default'>
+				<div class="desc ellipsis-online ellipsis-online-1">常用配置以下配置能使用File -&gt; New Projects Settings -&gt; Settings for New Projects进行配置的尽量用这个配置，因为这个配置是作用于所有新建项目的，不能用的选择File -&gt; Settings配置<em>Python</em>解释器文件编码文件和代码模板#!/usr/bin/env <em>python</em>3# -*- coding:utf-8 -*-# @...</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/weixin_49317370/article/details/118604364"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.12","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-12-118604364-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"12","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/weixin_49317370/article/details/118604364"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/weixin_49317370/article/details/118604364" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.12","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-12-118604364-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"12","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/weixin_49317370/article/details/118604364"}'  data-report-query='spm=1001.2101.3001.6650.12&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-12-118604364-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-12-118604364-blog-110473731.pc_relevant_default'>
+					<div class="left ellipsis-online ellipsis-online-1"><em>Python</em> <em>idea</em>几<em>款</em>非常实用的<em>插件</em></div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/weixin_49317370" target="_blank"><span class="blog-title">weixin_49317370的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">07-09</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					83
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/weixin_49317370/article/details/118604364" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.12","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-12-118604364-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"12","strategy":"2~default~CTRLIST~default","dest":"https://blog.csdn.net/weixin_49317370/article/details/118604364"}'  data-report-query='spm=1001.2101.3001.6650.12&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-12-118604364-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-12-118604364-blog-110473731.pc_relevant_default'>
+				<div class="desc ellipsis-online ellipsis-online-1">https://blog.csdn.net/huangmingleiluo/article/details/104385213
+
+</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/jianghuqixialb/article/details/72934654"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.13","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-13-72934654-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"13","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/jianghuqixialb/article/details/72934654"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/jianghuqixialb/article/details/72934654" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.13","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-13-72934654-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"13","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/jianghuqixialb/article/details/72934654"}'  data-report-query='spm=1001.2101.3001.6650.13&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-13-72934654-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-13-72934654-blog-110473731.pc_relevant_default'>
+					<div class="left ellipsis-online ellipsis-online-1">使用JetBrains <em>IntelliJ</em> <em>IDEA</em>创建Jython项目：环境配置与代码示例</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/jianghuqixialb" target="_blank"><span class="blog-title">jianghuqixialb的专栏</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">06-08</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					4021
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/jianghuqixialb/article/details/72934654" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.13","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-13-72934654-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"13","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/jianghuqixialb/article/details/72934654"}'  data-report-query='spm=1001.2101.3001.6650.13&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-13-72934654-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-13-72934654-blog-110473731.pc_relevant_default'>
+				<div class="desc ellipsis-online ellipsis-online-1">使用JetBrains <em>IntelliJ</em> <em>IDEA</em>创建Jython项目：环境配置与示例代码</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/qq_36286345/article/details/123440243"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.14","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-14-123440243-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"14","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/qq_36286345/article/details/123440243"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/qq_36286345/article/details/123440243" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.14","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-14-123440243-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"14","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/qq_36286345/article/details/123440243"}'  data-report-query='spm=1001.2101.3001.6650.14&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-14-123440243-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-14-123440243-blog-110473731.pc_relevant_default'>
+					<div class="left ellipsis-online ellipsis-online-1"><em>IDEA</em>中Java使用Jython执行<em>Python</em>代码报错问题</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/qq_36286345" target="_blank"><span class="blog-title">qq_36286345的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">03-12</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					233
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/qq_36286345/article/details/123440243" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.14","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-14-123440243-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"14","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/qq_36286345/article/details/123440243"}'  data-report-query='spm=1001.2101.3001.6650.14&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-14-123440243-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-14-123440243-blog-110473731.pc_relevant_default'>
+				<div class="desc ellipsis-online ellipsis-online-1">这是一种特殊情况，报出的错误在国内网上基本搜索不到，解决方法仅供参考
+
+打开<em>IDEA</em>的文件-项目结构-项目设置-模块，检查是不是添加了<em>python</em>模块
+
+
+
+把<em>python</em>模块的解释器设置为无或者直接删除<em>python</em>模块即可
+...</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/cainiao_python/article/details/122227495"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.15","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-15-122227495-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"15","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/cainiao_python/article/details/122227495"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/cainiao_python/article/details/122227495" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.15","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-15-122227495-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"15","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/cainiao_python/article/details/122227495"}'  data-report-query='spm=1001.2101.3001.6650.15&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-15-122227495-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-15-122227495-blog-110473731.pc_relevant_default'>
+					<div class="left ellipsis-online ellipsis-online-1">年度盘点！<em>Python</em> 的 10 大最佳 IDE，你最爱哪一<em>款</em>？</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/cainiao_python" target="_blank"><span class="blog-title">cainiao_python的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">12-29</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					333
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/cainiao_python/article/details/122227495" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.15","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-15-122227495-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"15","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/cainiao_python/article/details/122227495"}'  data-report-query='spm=1001.2101.3001.6650.15&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-15-122227495-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-15-122227495-blog-110473731.pc_relevant_default'>
+				<div class="desc ellipsis-online ellipsis-online-1">对于程序员来说，除了日常争论世界上最<em>好</em>的语言是哪一门以外，哪<em>款</em> IDE 是最<em>好</em>的也是争议颇多，今天我们就来介绍 10 <em>款</em>最<em>好</em>的 <em>Python</em> 编程 IDE，总有一<em>款</em>适合你！什么是 IDE？...</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/cyan20115/article/details/106540918"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.16","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-16-106540918-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"16","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/cyan20115/article/details/106540918"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/cyan20115/article/details/106540918" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.16","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-16-106540918-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"16","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/cyan20115/article/details/106540918"}'  data-report-query='spm=1001.2101.3001.6650.16&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-16-106540918-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-16-106540918-blog-110473731.pc_relevant_default'>
+					<div class="left ellipsis-online ellipsis-online-1"><em>IntelliJ</em> <em>IDEA</em>中的<em>Python</em>支持</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/cyan20115" target="_blank"><span class="blog-title">一名可爱的技术搬运工</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">05-28</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					1542
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/cyan20115/article/details/106540918" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.16","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-16-106540918-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"16","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/cyan20115/article/details/106540918"}'  data-report-query='spm=1001.2101.3001.6650.16&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-16-106540918-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-16-106540918-blog-110473731.pc_relevant_default'>
+				<div class="desc ellipsis-online ellipsis-online-1">本文向您展示如何使<em>IntelliJ</em> <em>IDEA</em>支持并运行<em>Python</em>。 
+ PS确保已安装<em>Python</em> SDK ，稍后我们需要将此<em>Python</em> SDK链接到<em>IntelliJ</em> <em>IDEA</em>。 
+ 1.<em>插件</em> 
+ 在<em>IntelliJ</em> <em>IDEA</em>中。 File -&gt; Settings -&gt; Plugins 。 
+
+
+
+
+
+
+ 2. <em>Python</em>社区版 
+ 单击Marketplace ，搜索pytho...</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/Dolores_wt/article/details/107858815"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.17","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-17-107858815-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"17","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/Dolores_wt/article/details/107858815"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/Dolores_wt/article/details/107858815" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.17","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-17-107858815-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"17","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/Dolores_wt/article/details/107858815"}'  data-report-query='spm=1001.2101.3001.6650.17&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-17-107858815-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-17-107858815-blog-110473731.pc_relevant_default'>
+					<div class="left ellipsis-online ellipsis-online-1"><em>IDEA</em>里<em>写</em><em>python</em></div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/Dolores_wt" target="_blank"><span class="blog-title">Dolores_wt的博客</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">08-07</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					365
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/Dolores_wt/article/details/107858815" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.17","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-17-107858815-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"17","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/Dolores_wt/article/details/107858815"}'  data-report-query='spm=1001.2101.3001.6650.17&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-17-107858815-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-17-107858815-blog-110473731.pc_relevant_default'>
+				<div class="desc ellipsis-online ellipsis-online-1"><em>python</em><em>插件</em>包
+安装与<em>IDEA</em>版本对应的包
+选中其中一个后，跳出窗口会说明能够兼容的版本。
+
+下载完成
+
+</div>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="recommend-item-box type_blog clearfix" data-url="https://blog.csdn.net/weixin_41606064/article/details/106299777"  data-report-view='{"ab":"new","spm":"1001.2101.3001.6650.18","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-18-106299777-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"18","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/weixin_41606064/article/details/106299777"}'>
+	<div class="content-box">
+		<div class="content-blog display-flex">
+			<div class="title-box">
+				<a href="https://blog.csdn.net/weixin_41606064/article/details/106299777" class="tit" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.18","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-18-106299777-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"18","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/weixin_41606064/article/details/106299777"}'  data-report-query='spm=1001.2101.3001.6650.18&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-18-106299777-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-18-106299777-blog-110473731.pc_relevant_default'>
+					<div class="left ellipsis-online ellipsis-online-1"><em>IDEA</em>中实现能<em>写</em><em>python</em>代码的配置方法</div>
+				</a>
+			</div>
+			<div class="info-box display-flex">
+				<div class="info">
+					<a href="https://blog.csdn.net/weixin_41606064" target="_blank"><span class="blog-title">会呼吸的梦</span></a>
+				</div>
+				<div class="info display-flex">
+					<span class="info-block time">05-23</span>
+					<span class="info-block read"><img class="read-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					7540
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="desc-box">
+			<a href="https://blog.csdn.net/weixin_41606064/article/details/106299777" target="_blank"  data-report-click='{"ab":"new","spm":"1001.2101.3001.6650.18","mod":"popu_387","extra":"{\"highlightScore\":0.0,\"utm_medium\":\"distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-18-106299777-blog-110473731.pc_relevant_default\",\"dist_request_id\":\"1658366535340_37127\"}","dist_request_id":"1658366535340_37127","ab_strategy":"default","index":"18","strategy":"2~default~BlogCommendFromBaidu~default","dest":"https://blog.csdn.net/weixin_41606064/article/details/106299777"}'  data-report-query='spm=1001.2101.3001.6650.18&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-18-106299777-blog-110473731.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-18-106299777-blog-110473731.pc_relevant_default'>
+				<div class="desc ellipsis-online ellipsis-online-1">1 在<em>IDEA</em>中安装支持<em>python</em>的<em>插件</em>：File-&gt;Settings-&gt;Plugins:在marketplace中搜索&ldquo;<em>python</em>&rdquo;，如下：
+
+2.添加<em>python</em>的module：File-&gt;Project Structure-&gt;Module-&gt;New Module:
+
+3.配置<em>python</em> Module的SDK：
+
+这一块的添加<em>python</em>解释器的环境，就根据自己的实际需求来定了
+
+完成这一步就<em>可以</em>在<em>idea</em>中同时<em>写</em><em>python</em>的代码。
+
+
+...</div>
+			</a>
+		</div>
+	</div>
+</div>
+            </div>
+<div id="recommendNps" class="recommend-nps-box common-nps-box">
+  <h3 class="aside-title">“相关推荐”对你有帮助么？</h3>
+  <div class="aside-content">
+      <ul class="newnps-list">
+          <li class="newnps-item" data-type="非常没帮助">
+              <div class="newnps-img-box">
+                  <img class="newnps-img active" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel1.png" alt="">
+                  <img class="newnps-img default" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeelGrey1.png" alt="">
+              </div>
+              <div class="newnps-text">非常没帮助</div>
+          </li>
+          <li class="newnps-item" data-type="没帮助">
+              <div class="newnps-img-box">
+                  <img class="newnps-img active" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel2.png" alt="">
+                  <img class="newnps-img default" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeelGrey2.png" alt="">
+              </div>
+              <div class="newnps-text">没帮助</div>
+          </li>
+          <li class="newnps-item" data-type="一般">
+              <div class="newnps-img-box">
+                  <img class="newnps-img active" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel3.png" alt="">
+                  <img class="newnps-img default" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeelGrey3.png" alt="">
+              </div>
+              <div class="newnps-text">一般</div>
+          </li>
+          <li class="newnps-item" data-type="有帮助">
+              <div class="newnps-img-box">
+                  <img class="newnps-img active" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel4.png" alt="">
+                  <img class="newnps-img default" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeelGrey4.png" alt="">
+              </div>
+              <div class="newnps-text">有帮助</div>
+          </li>
+          <li class="newnps-item" data-type="非常有帮助">
+              <div class="newnps-img-box">
+                  <img class="newnps-img active" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel5.png" alt="">
+                  <img class="newnps-img default" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeelGrey5.png" alt="">
+              </div>
+              <div class="newnps-text">非常有帮助</div>
+          </li>
+      </ul>
+      <div class="newnps-form-box">
+      <div class="newnps-form">
+          <input type="text" placeholder="请输入建议或反馈后点击提交" class="newnps-input">
+          <span class="newnps-btn">提交</span>
+      </div>
+      </div>
+  </div>
+</div>            <div class="template-box">
+                <span>©️2022 CSDN</span>
+                <span>皮肤主题：游动-白</span>
+                <span> 设计师：我叫白小胖</span>
+                <span>
+                    <a href="https://blog.csdn.net/" class="back-home c-blue c-blue-hover c-blue-focus">返回首页</a>
+                </span>
+            </div>
+<div class="blog-footer-bottom" style="margin-top:10px;"></div>
+<script src="https://g.csdnimg.cn/common/csdn-footer/csdn-footer.js" data-isfootertrack="false" type="text/javascript"></script>
+<script type="text/javascript">
+    window.csdn.csdnFooter.options = {
+        el: '.blog-footer-bottom',
+        type: 2
+    }
+</script>        </main>
+<aside class="blog_container_aside">
+<div id="asideProfile" class="aside-box">
+    <div class="profile-intro d-flex">
+        <div class="avatar-box d-flex justify-content-center flex-column">
+            <a href="https://blog.csdn.net/weixin_39780255" target="_blank" data-report-click='{"mod":"popu_379","spm":"1001.2101.3001.4121","dest":"https://blog.csdn.net/weixin_39780255","ab":"new"}'>
+                <img src="https://profile.csdnimg.cn/4/B/D/3_weixin_39780255" class="avatar_pic">
+            </a>
+        </div>
+        <div class="user-info d-flex flex-column profile-intro-name-box">
+            <div class="profile-intro-name-boxTop">
+                <a href="https://blog.csdn.net/weixin_39780255" target="_blank" class="" id="uid" title="weixin_39780255" data-report-click='{"mod":"popu_379","spm":"1001.2101.3001.4122","dest":"https://blog.csdn.net/weixin_39780255","ab":"new"}'>
+                    <span class="name " username="weixin_39780255">weixin_39780255</span>
+                </a>
+                <span>
+                </span>
+                <span class="flag expert-blog">
+                <span class="bubble">CSDN认证博客专家</span>
+                </span>
+                <span class="flag company-blog">
+                <span class="bubble">CSDN认证企业博客</span>
+                </span>
+            </div>
+            <div class="profile-intro-name-boxFooter">
+                <span class="personal-home-page personal-home-years" title="已加入 CSDN 5年">码龄5年</span>
+                    <span class="personal-home-page">
+                    <a class="personal-home-certification" href="https://i.csdn.net/#/uc/profile?utm_source=14998968" target="_blank" title="暂无认证">
+                    <img src="https://csdnimg.cn/identity/nocErtification.png" alt="">
+                    暂无认证
+                    </a>
+                    </span>
+            </div>
+        </div>
+    </div>
+    <div class="data-info d-flex item-tiling">
+        <dl class="text-center" title="155">
+            <a href="https://blog.csdn.net/weixin_39780255" data-report-click='{"mod":"1598321000_001","spm":"1001.2101.3001.4310"}' data-report-query="t=1">  
+                <dt><span class="count">155</span></dt>
+                <dd class="font">原创</dd>
+            </a>
+        </dl>
+        <dl class="text-center" data-report-click='{"mod":"1598321000_002","spm":"1001.2101.3001.4311"}' title="暂无排名">
+            <a href="https://blog.csdn.net/rank/list/weekly" target="_blank">
+                <dt><span class="count">-</span></dt>
+                <dd class="font">周排名</dd>
+            </a>
+        </dl>
+        <dl class="text-center" title="648551">
+            <a href="https://blog.csdn.net/rank/list/total" data-report-click='{"mod":"1598321000_003","spm":"1001.2101.3001.4312"}' target="_blank">
+                <dt><span class="count">64万+</span></dt>
+                <dd class="font">总排名</dd>
+            </a>
+        </dl>
+        <dl class="text-center" style="min-width:58px" title="109736">  
+            <dt><span class="count">10万+</span></dt>
+            <dd>访问</dd>
+        </dl>
+        <dl class="text-center" title="2级,点击查看等级说明">
+            <dt><a href="https://blog.csdn.net/blogdevteam/article/details/103478461" target="_blank">
+                <img class="level" src="https://csdnimg.cn/identity/blog2.png">
+            </a>
+            </dt>
+            <dd>等级</dd>
+        </dl>
+    </div>
+    <div class="item-rank"></div>
+    <div class="data-info d-flex item-tiling">
+        <dl class="text-center" title="115">
+            <dt><span class="count">115</span></dt>
+            <dd>积分</dd>
+        </dl>
+         <dl class="text-center" id="fanBox" title="15">
+            <dt><span class="count" id="fan">15</span></dt>
+            <dd>粉丝</dd>
+        </dl>
+        <dl class="text-center" title="21">
+            <dt><span class="count">21</span></dt>
+            <dd>获赞</dd>
+        </dl>
+        <dl class="text-center" title="0">
+            <dt><span class="count">0</span></dt>
+            <dd>评论</dd>
+        </dl>
+        <dl class="text-center" title="117">
+            <dt><span class="count">117</span></dt>
+            <dd>收藏</dd>
+        </dl>
+    </div>
+    <div class="aside-box-footer" data-report-view='{"spm":"3001.4296"}'>
+        <div class="badge-box d-flex">
+            <div class="badge d-flex">
+                <div class="icon-badge" title="孜孜不倦">
+                    <div class="mouse-box">
+                        <img class="medal-img" data-report-click='{"spm":"3001.4296"}' src="https://csdnimg.cn/e5c1fbe168e14d18800d291a86393fda.png" alt="孜孜不倦">
+                    </div>
+                </div>
+                <div class="icon-badge" title="勤写标兵">
+                    <div class="mouse-box">
+                        <img class="medal-img" data-report-click='{"spm":"3001.4296"}' src="https://csdnimg.cn/medal/qixiebiaobing4@240.png" alt="勤写标兵">
+                    </div>
+                </div>
+                <div class="icon-badge" title="知无不言">
+                    <div class="mouse-box">
+                        <img class="medal-img" data-report-click='{"spm":"3001.4296"}' src="https://csdnimg.cn/22a1b7cb0f804e29935d69a7b09d059f.png" alt="知无不言">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="profile-intro-name-boxOpration">
+        <div class="opt-letter-watch-box">
+        <a class="bt-button personal-letter" href="https://im.csdn.net/chat/weixin_39780255" target="_blank" rel="noopener">私信</a>
+        </div>
+        <div class="opt-letter-watch-box"> 
+            <a class="personal-watch bt-button" id="btnAttent" >关注</a>  
+        </div>
+    </div>
+</div>
+ <div id="asideSearchArticle" class="aside-box">
+	<div class="aside-content search-comter">
+    <div class="aside-search aside-search-blog">         
+        <input type="text" class="input-serch-blog" name="" autocomplete="off" value="" id="search-blog-words" placeholder="搜博主文章">
+        <a class="btn-search-blog">
+                    <img src="//csdnimg.cn/cdn/content-toolbar/csdn-sou.png?v=1587021042">
+        </a>
+    </div>
+    </div>
+</div><div class="box-shadow mb8" data-pid="blog" style="height:250px;">
+    <div class="aside-content text-center" id="cpro_u2734133">
+        <div id="kp_box_56" data-pid="56"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1076724771190722"
+     crossorigin="anonymous"></script>
+<!-- 左侧 博文页 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1076724771190722"
+     data-ad-slot="3806919815"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><img class="pre-img-lasy" data-src="https://kunyu.csdn.net/1.png?p=56&adId=6815&a=6815&c=0&k=idea可以开发python吗_IntelliJ IDEA必备7款Python插件&spm=1001.2101.3001.5000&articleId=110473731&d=1&t=3&u=9ccccd1aa12d443ebef76fb17e915c69" style="display: block;width: 0px;height: 0px;"></div>
+    </div>
+</div>
+
+
+
+<div id="asideHotArticle" class="aside-box">
+	<h3 class="aside-title">热门文章</h3>
+	<div class="aside-content">
+		<ul class="hotArticle-list">
+			<li>
+				<a href="https://blog.csdn.net/weixin_39780255/article/details/110979604" target="_blank"  data-report-click='{"mod":"popu_541","spm":"1001.2101.3001.4139","dest":"https://blog.csdn.net/weixin_39780255/article/details/110979604","ab":"new"}'>
+				qq模板图片asqq_短视频三连图模板：抖音快手封面三连拼图封面三折页三宫格封面一张图片三个视频影视混剪电影剪辑视频教程...
+					<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					<span class="read">3643</span>
+                </a>
+			</li>
+			<li>
+				<a href="https://blog.csdn.net/weixin_39780255/article/details/111332754" target="_blank"  data-report-click='{"mod":"popu_541","spm":"1001.2101.3001.4139","dest":"https://blog.csdn.net/weixin_39780255/article/details/111332754","ab":"new"}'>
+				二叉树的高度_完全二叉树的节点数，你真的会算吗？
+					<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					<span class="read">3561</span>
+                </a>
+			</li>
+			<li>
+				<a href="https://blog.csdn.net/weixin_39780255/article/details/112500631" target="_blank"  data-report-click='{"mod":"popu_541","spm":"1001.2101.3001.4139","dest":"https://blog.csdn.net/weixin_39780255/article/details/112500631","ab":"new"}'>
+				win10子系统ubuntu文件夹位置_Windows 10 安装Ubuntu 20.04 LTS子系统
+					<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					<span class="read">2520</span>
+                </a>
+			</li>
+			<li>
+				<a href="https://blog.csdn.net/weixin_39780255/article/details/110717868" target="_blank"  data-report-click='{"mod":"popu_541","spm":"1001.2101.3001.4139","dest":"https://blog.csdn.net/weixin_39780255/article/details/110717868","ab":"new"}'>
+				java contains不区分大小写_java笔记（四、集合框架）
+					<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					<span class="read">2098</span>
+                </a>
+			</li>
+			<li>
+				<a href="https://blog.csdn.net/weixin_39780255/article/details/112497928" target="_blank"  data-report-click='{"mod":"popu_541","spm":"1001.2101.3001.4139","dest":"https://blog.csdn.net/weixin_39780255/article/details/112497928","ab":"new"}'>
+				七乐彩中奖规则表_【开奖】“快乐8”第2020035期开奖结果出炉！你中奖了吗？...
+					<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/readCountWhite.png" alt="">
+					<span class="read">2050</span>
+                </a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div id="asideNewNps" class="aside-box common-nps-box">
+    <h3 class="aside-title">您愿意向朋友推荐“博客详情页”吗？</h3>
+    <div class="aside-content">
+        <ul class="newnps-list">
+            <li class="newnps-item" data-type="强烈不推荐">
+                <div class="newnps-img-box">
+                    <img class="newnps-img active" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel1.png" alt="">
+                    <img class="newnps-img default" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeelGrey1.png" alt="">
+                </div>
+                <div class="newnps-text">强烈不推荐</div>
+            </li>
+            <li class="newnps-item" data-type="不推荐">
+                <div class="newnps-img-box">
+                    <img class="newnps-img active" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel2.png" alt="">
+                    <img class="newnps-img default" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeelGrey2.png" alt="">
+                </div>
+                <div class="newnps-text">不推荐</div>
+            </li>
+            <li class="newnps-item" data-type="一般般">
+                <div class="newnps-img-box">
+                    <img class="newnps-img active" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel3.png" alt="">
+                    <img class="newnps-img default" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeelGrey3.png" alt="">
+                </div>
+                <div class="newnps-text">一般般</div>
+            </li>
+            <li class="newnps-item" data-type="推荐">
+                <div class="newnps-img-box">
+                    <img class="newnps-img active" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel4.png" alt="">
+                    <img class="newnps-img default" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeelGrey4.png" alt="">
+                </div>
+                <div class="newnps-text">推荐</div>
+            </li>
+            <li class="newnps-item" data-type="强烈推荐">
+                <div class="newnps-img-box">
+                    <img class="newnps-img active" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel5.png" alt="">
+                    <img class="newnps-img default" src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeelGrey5.png" alt="">
+                </div>
+                <div class="newnps-text">强烈推荐</div>
+            </li>
+        </ul>
+        <div class="newnps-form-box">
+        <div class="newnps-form">
+            <input type="text" placeholder="请输入建议或反馈后点击提交" class="newnps-input">
+            <span class="newnps-btn">提交</span>
+        </div>
+        </div>
+    </div>
+</div>
+<div id="asideArchive" class="aside-box" style=" width:300px;">
+    <h3 class="aside-title">最新文章</h3>
+    <div class="aside-content">
+        <ul class="inf_list clearfix">
+            <li class="clearfix">
+            <a href="https://blog.csdn.net/weixin_39780255/article/details/119659248" target="_blank" data-report-click='{"mod":"popu_382","spm":"1001.2101.3001.4136","dest":"https://blog.csdn.net/weixin_39780255/article/details/119659248","ab":"new"}' data-report-view='{"mod":"popu_382","dest":"https://blog.csdn.net/weixin_39780255/article/details/119659248","ab":"new"}'>pageoffice打开文件服务器,Java集成PageOffice在线打开编辑word文件 - Spring Boot(示例代码)...</a>
+            </li>
+            <li class="clearfix">
+            <a href="https://blog.csdn.net/weixin_39780255/article/details/119626618" target="_blank" data-report-click='{"mod":"popu_382","spm":"1001.2101.3001.4136","dest":"https://blog.csdn.net/weixin_39780255/article/details/119626618","ab":"new"}' data-report-view='{"mod":"popu_382","dest":"https://blog.csdn.net/weixin_39780255/article/details/119626618","ab":"new"}'>服务器虚拟化后需要负载均衡,服务器虚拟化负载均衡原理</a>
+            </li>
+            <li class="clearfix">
+            <a href="https://blog.csdn.net/weixin_39780255/article/details/119527706" target="_blank" data-report-click='{"mod":"popu_382","spm":"1001.2101.3001.4136","dest":"https://blog.csdn.net/weixin_39780255/article/details/119527706","ab":"new"}' data-report-view='{"mod":"popu_382","dest":"https://blog.csdn.net/weixin_39780255/article/details/119527706","ab":"new"}'>选股服务器为空,云服务器选股</a>
+            </li>
+        </ul>
+        <div class="archive-bar"></div>
+        <div class="archive-box">
+                <div class="archive-list-item"><a href="https://blog.csdn.net/weixin_39780255?type=blog&amp;year=2021&amp;month=08" target="_blank" data-report-click='{"mod":"popu_538","spm":"1001.2101.3001.4138","ab":"new","dest":"https://blog.csdn.net/weixin_39780255?type=blog&amp;year=2021&amp;month=08"}'><span class="year">2021年</span><span class="num">143篇</span></a></div>
+                <div class="archive-list-item"><a href="https://blog.csdn.net/weixin_39780255?type=blog&amp;year=2020&amp;month=12" target="_blank" data-report-click='{"mod":"popu_538","spm":"1001.2101.3001.4138","ab":"new","dest":"https://blog.csdn.net/weixin_39780255?type=blog&amp;year=2020&amp;month=12"}'><span class="year">2020年</span><span class="num">231篇</span></a></div>
+        </div>
+    </div>
+</div>
+	<div id="footerRightAds" class="isShowFooterAds">
+		<div class="aside-box">
+			<div id="kp_box_57" data-pid="57"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1076724771190722"
+     crossorigin="anonymous"></script>
+<!-- 左侧 博文页 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1076724771190722"
+     data-ad-slot="3806919815"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><img class="pre-img-lasy" data-src="https://kunyu.csdn.net/1.png?p=57&adId=6816&a=6816&c=0&k=idea可以开发python吗_IntelliJ IDEA必备7款Python插件&spm=1001.2101.3001.5001&articleId=110473731&d=1&t=3&u=6568b521bd2e4a80aec154710800e20f" style="display: block;width: 0px;height: 0px;"></div>
+		</div>
+	</div>
+    <!-- 详情页显示目录 -->
+<!--文章目录-->
+<div id="asidedirectory" class="aside-box">
+    <div class='groupfile' id="directory">
+        <h3 class="aside-title">目录</h3>
+        <div class="align-items-stretch group_item">
+            <div class="pos-box">
+            <div class="scroll-box">
+                <div class="toc-box"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</aside>
+<script>
+	$("a.flexible-btn").click(function(){
+		$(this).parents('div.aside-box').removeClass('flexible-box');
+		$(this).parents("p.text-center").remove();
+	})
+</script>
+<script type="text/javascript"  src="https://g.csdnimg.cn/user-tooltip/2.7/user-tooltip.js"></script>
+<script type="text/javascript"  src="https://g.csdnimg.cn/user-medal/2.0.0/user-medal.js"></script>    </div>
+<div class="recommend-right align-items-stretch clearfix" id="rightAside" data-type="recommend">
+    <aside class="recommend-right_aside">
+        <div id="recommend-right" >
+                                <div class="programmer1Box">
+                        <div id="kp_box_530" data-pid="530"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1076724771190722"
+     crossorigin="anonymous"></script>
+<!-- 博文页右侧 大 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1076724771190722"
+     data-ad-slot="6842192987"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><img class="pre-img-lasy" data-src="https://kunyu.csdn.net/1.png?p=530&adId=6859&a=6859&c=0&k=idea可以开发python吗_IntelliJ IDEA必备7款Python插件&spm=1001.2101.3001.4647&articleId=110473731&d=1&t=3&u=3ddda2fb7dfd4be3b75dde8ef25c711e" style="display: block;width: 0px;height: 0px;"></div>
+                    </div>
+            <div class='flex-column aside-box groupfile' id="groupfile">
+                <div class="groupfile-div">
+                <h3 class="aside-title">目录</h3>
+                <div class="align-items-stretch group_item">
+                    <div class="pos-box">
+                        <div class="scroll-box">
+                            <div class="toc-box"></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+                <div id="recommendAdBox">
+                    <div id="kp_box_479" data-pid="479"><script type="text/javascript" src="https://cdn.wwads.cn/js/makemoney.js" async></script>
+ <div class="wwads-cn wwads-vertical" data-id="149" style="max-width:300px;margin-top:0;background-color: #fff;margin-bottom: 5px;"><img class="pre-img-lasy" data-src="https://kunyu.csdn.net/1.png?p=479&adId=6860&a=6860&c=0&k=idea可以开发python吗_IntelliJ IDEA必备7款Python插件&spm=1001.2101.3001.4834&articleId=110473731&d=1&t=3&u=a0adb42ef1a749b28d51683a6b712dda" style="display: block;width: 0px;height: 0px;"></div>
+                </div>
+<div id="asideArchive" class="aside-box" style=" width:300px;">
+    <h3 class="aside-title">最新文章</h3>
+    <div class="aside-content">
+        <ul class="inf_list clearfix">
+            <li class="clearfix">
+            <a href="https://blog.csdn.net/weixin_39780255/article/details/119659248" target="_blank" data-report-click='{"mod":"popu_382","spm":"1001.2101.3001.4136","dest":"https://blog.csdn.net/weixin_39780255/article/details/119659248","ab":"new"}' data-report-view='{"mod":"popu_382","dest":"https://blog.csdn.net/weixin_39780255/article/details/119659248","ab":"new"}'>pageoffice打开文件服务器,Java集成PageOffice在线打开编辑word文件 - Spring Boot(示例代码)...</a>
+            </li>
+            <li class="clearfix">
+            <a href="https://blog.csdn.net/weixin_39780255/article/details/119626618" target="_blank" data-report-click='{"mod":"popu_382","spm":"1001.2101.3001.4136","dest":"https://blog.csdn.net/weixin_39780255/article/details/119626618","ab":"new"}' data-report-view='{"mod":"popu_382","dest":"https://blog.csdn.net/weixin_39780255/article/details/119626618","ab":"new"}'>服务器虚拟化后需要负载均衡,服务器虚拟化负载均衡原理</a>
+            </li>
+            <li class="clearfix">
+            <a href="https://blog.csdn.net/weixin_39780255/article/details/119527706" target="_blank" data-report-click='{"mod":"popu_382","spm":"1001.2101.3001.4136","dest":"https://blog.csdn.net/weixin_39780255/article/details/119527706","ab":"new"}' data-report-view='{"mod":"popu_382","dest":"https://blog.csdn.net/weixin_39780255/article/details/119527706","ab":"new"}'>选股服务器为空,云服务器选股</a>
+            </li>
+        </ul>
+        <div class="archive-bar"></div>
+        <div class="archive-box">
+                <div class="archive-list-item"><a href="https://blog.csdn.net/weixin_39780255?type=blog&amp;year=2021&amp;month=08" target="_blank" data-report-click='{"mod":"popu_538","spm":"1001.2101.3001.4138","ab":"new","dest":"https://blog.csdn.net/weixin_39780255?type=blog&amp;year=2021&amp;month=08"}'><span class="year">2021年</span><span class="num">143篇</span></a></div>
+                <div class="archive-list-item"><a href="https://blog.csdn.net/weixin_39780255?type=blog&amp;year=2020&amp;month=12" target="_blank" data-report-click='{"mod":"popu_538","spm":"1001.2101.3001.4138","ab":"new","dest":"https://blog.csdn.net/weixin_39780255?type=blog&amp;year=2020&amp;month=12"}'><span class="year">2020年</span><span class="num">231篇</span></a></div>
+        </div>
+    </div>
+</div>
+        </div>
+    </aside>
+</div>
+
+<div class="recommend-right1  align-items-stretch clearfix" id="rightAsideConcision" data-type="recommend">
+    <aside class="recommend-right_aside">
+        <div id="recommend-right-concision" >
+            <div class='flex-column aside-box groupfile' id="groupfileConcision">
+                <div class="groupfile-div1">
+                <h3 class="aside-title">目录</h3>
+                <div class="align-items-stretch group_item">
+                    <div class="pos-box">
+                        <div class="scroll-box">
+                            <div class="toc-box"></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+</div>
+
+</div>
+<div class="mask-dark"></div>
+<script type="text/javascript">
+    var timert = setInterval(function() {
+      sideToolbar = $(".csdn-side-toolbar");
+      if (sideToolbar.length > 0) {
+        sideToolbar.css('cssText','bottom:64px !important;')
+        clearInterval(timert);
+      }
+    }, 200);
+</script>
+<script src="https://csdnimg.cn/public/sandalstrap/1.4/js/sandalstrap.min.js"></script>
+<div class="skin-boxshadow"></div>
+<div class="directory-boxshadow"></div>
+<div class="comment-side-box-shadow comment-side-tit-close" id="commentSideBoxshadow">
+<div class="comment-side-content">
+	<div class="comment-side-tit">
+	<span class="comment-side-tit-count">评论</span>	
+	<img class="comment-side-tit-close" src="https://csdnimg.cn/release/blogv2/dist/pc/img/closeBt.png"></div>
+	<div id="pcCommentSideBox" class="comment-box comment-box-new2 unlogin-comment-box-new" style="display:none">
+	</div>
+	<div id="pcFlodCommentSideBox" class="pc-flodcomment-sidebox">
+		<div class="comment-fold-tit"><span id="lookUnFlodComment" class="back"><img src="https://csdnimg.cn/release/blogv2/dist/pc/img/commentArrowLeftWhite.png" alt=""></span>被折叠的&nbsp;<span class="count"></span>&nbsp;条评论
+		 <a href="https://blogdev.blog.csdn.net/article/details/122245662" class="tip" target="_blank">为什么被折叠?</a>
+		 <a href="https://bbs.csdn.net/forums/FreeZone" class="park" target="_blank">
+		 <img src="https://csdnimg.cn/release/blogv2/dist/pc/img/iconPark.png">到【灌水乐园】发言</a>                                
+		</div>
+		<div class="comment-fold-content"></div>
+		<div id="lookBadComment" class="look-bad-comment side-look-comment">
+			<a class="look-more-comment">查看更多评论<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/commentArrowDownWhite.png" alt=""></a>
+		</div>
+	</div>
+</div>
+</div>
+<div class="pay-code">
+    <div class="pay-money">实付<span class="pay-money-span" data-nowprice='' data-oldprice=''>元</span></div>
+    <div class="content-blance"><a class="blance-bt" href="javascript:;">使用余额支付</a></div>
+    <div class="content-code">
+    <div id="payCode" data-id="">
+            <div class="renovate">
+                <img src="https://csdnimg.cn/release/blogv2/dist/pc/img/pay-time-out.png">
+                <span>点击重新获取</span>
+            </div>
+        </div>
+        <div class="pay-style"><span><img src="https://csdnimg.cn/release/blogv2/dist/pc/img/weixin.png"></span><span><img src="https://csdnimg.cn/release/blogv2/dist/pc/img/zhifubao.png"></span><span><img src="https://csdnimg.cn/release/blogv2/dist/pc/img/jingdong.png"></span><span class="text">扫码支付</span></div>
+    </div>
+    <div class="bt-close"><svg t="1567152543821" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10924" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12"><defs><style type="text/css"></style></defs><path d="M512 438.378667L806.506667 143.893333a52.032 52.032 0 1 1 73.6 73.621334L585.621333 512l294.485334 294.485333a52.074667 52.074667 0 0 1-73.6 73.642667L512 585.621333 217.514667 880.128a52.053333 52.053333 0 1 1-73.621334-73.642667L438.378667 512 143.893333 217.514667a52.053333 52.053333 0 1 1 73.621334-73.621334L512 438.378667z" fill="" p-id="10925"></path></svg></div>
+    <!-- <p style="margin-top: 8px;font-size: 14px;" class="text-center">支付成功即可阅读</p> -->
+    <div class="pay-balance">
+    <input type="radio" class="pay-code-radio" data-type="details"> 
+    <span class="span">钱包余额</span>
+    <span class="balance" style="color:#FC5531;font-size:14px;">0</span>  
+    <div class="pay-code-tile">
+        <img src="https://csdnimg.cn/release/blogv2/dist/pc/img/pay-help.png" alt="">
+        <div class="pay-code-content">
+            <div class="span">
+                <p class="title">抵扣说明：</p>
+                <p> 1.余额是钱包充值的虚拟货币，按照1:1的比例进行支付金额的抵扣。<br> 2.余额无法直接购买下载，可以购买VIP、C币套餐、付费专栏及课程。</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <a class="pay-balance-con" href="https://i.csdn.net/#/wallet/balance/recharge" target="_blank"><img src="https://csdnimg.cn/release/blogv2/dist/pc/img/recharge.png" alt=""><span  >余额充值</span></a>
+</div>
+<div style="display:none;">
+	<img src="" onerror='setTimeout(function(){if(!/(csdn.net|iteye.com|baiducontent.com|googleusercontent.com|360webcache.com|sogoucdn.com|bingj.com|baidu.com)$/.test(window.location.hostname)){window.location.href="\x68\x74\x74\x70\x73\x3a\x2f\x2f\x77\x77\x77\x2e\x63\x73\x64\x6e\x2e\x6e\x65\x74"}},3000);'>
+</div>
+<div class="keyword-dec-box" id="keywordDecBox"></div>
+</body>
+    <!-- 富文本柱状图  -->
+	<link rel="stylesheet" href="https://csdnimg.cn/release/blog_editor_html/release1.6.12/ckeditor/plugins/chart/chart.css"/>
+	<script type="text/javascript" src="https://csdnimg.cn/release/blog_editor_html/release1.6.12/ckeditor/plugins/chart/lib/chart.min.js"></script>
+    <script type="text/javascript" src="https://csdnimg.cn/release/blog_editor_html/release1.6.12/ckeditor/plugins/chart/widget2chart.js"></script>
+<script src="https://csdnimg.cn/release/blogv2/dist/components/js/pc_wap_highlight-7e7de84184.min.js" type="text/javascript"></script>
+<script src="https://csdnimg.cn/release/blogv2/dist/components/js/pc_wap_common-fbcbe8567e.min.js" type="text/javascript"></script>
+<script src="https://csdnimg.cn/release/blogv2/dist/components/js/edit_copy_code-3d2bfc7b1e.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://csdnimg.cn/release/blog_editor_html/release1.6.12/ckeditor/plugins/codesnippet/lib/highlight/styles/atom-one-light.css">
+<script src="https://g.csdnimg.cn/user-accusation/1.0.5/user-accusation.js" type="text/javascript" ></script>
+<script>
+ // 全局声明
+ if (window.csdn === undefined) {
+      window.csdn = {};
+    }
+    window.csdn.sideToolbar = {
+        options: {
+            report:{
+                isShow: true,
+            },
+            qr: {
+                isShow: false,
+            },
+            guide: {
+                isShow: true
+            }
+        }
+    }
+    $(function(){
+        $(document).on('click',"a.option-box[data-type='report']",function() {
+            window.csdn.userLogin.loadAjax(function(res){
+                window.csdn.feedback({
+                    "type":'blog',
+                    "rtype":'article',
+                    "rid":articleId,
+                    "reportedName":username,
+                    "submitOptions":{
+                        "title":articleTitle,
+                        "contentUrl":articleDetailUrl
+                    },
+                    "callback":function(){
+                        showToast({
+                            text: "感谢您的举报，我们会尽快审核！",
+                            bottom: '10%', 
+                            zindex: 9000, 
+                            speed: 500,
+                            time: 1500
+                        });
+                    }
+                })
+            })
+        });
+    })
+</script>
+    <script src="https://g.csdnimg.cn/baidu-search/1.0.11/baidu-search.js"  type="text/javascript"></script>
+<script src="https://csdnimg.cn/release/download/old_static/js/qrcode.js"></script>
+<script src="https://g.csdnimg.cn/lib/qrcode/1.0.0/qrcode.min.js"></script>
+<script src="https://g.csdnimg.cn/user-ordercart/3.0.1/user-ordercart.js" type="text/javascript"></script>
+<script src="https://g.csdnimg.cn/user-ordertip/5.0.1/user-ordertip.js" type="text/javascript" ></script>
+<script src="https://g.csdnimg.cn/order-payment/4.0.1/order-payment.js" type="text/javascript" ></script>
+<script src="https://csdnimg.cn/release/blogv2/dist/pc/js/common-a1dfbf1dc3.min.js" type="text/javascript"></script>
+<script src="https://csdnimg.cn/release/blogv2/dist/pc/js/detail-36559162b4.min.js" type="text/javascript"></script>
+<script src="https://csdnimg.cn/release/blogv2/dist/pc/js/column-0dd80de049.min.js" type="text/javascript"></script>
+<script src="https://g.csdnimg.cn/side-toolbar/3.1/side-toolbar.js" type="text/javascript"></script>
+<script src="https://g.csdnimg.cn/copyright/1.0.4/copyright.js" type="text/javascript"></script>
+<script>
+    $(".MathJax").remove();
+    if ($('div.markdown_views pre.prettyprint code.hljs').length > 0) {
+        $('div.markdown_views')[0].className = 'markdown_views';
+    }
+</script>
+<script type="text/javascript" src="https://csdnimg.cn/release/blog_mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            "HTML-CSS": {
+                    linebreaks: { automatic: true, width: "94%container" },
+                    imageFont: null
+            },
+            tex2jax: {
+                preview: "none",
+                ignoreClass:"title-article"
+            },
+            mml2jax: {
+                preview: 'none'
+            }
+    });
+</script>
+<script type="text/javascript" crossorigin src="https://g.csdnimg.cn/common/csdn-login-box/csdn-login-box.js"></script></html>
